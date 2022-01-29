@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     background-color: black;
     color: #fff;
@@ -7,11 +8,11 @@ body {
     letter-spacing: 2px;
 }
 
-img{
+img {
     border-radius: 50%;
 }
 
-.profile-picture{
+.profile-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +50,7 @@ a:hover {
     background: #fff;
 }
 
-.bottom-text{
+.bottom-text {
     text-align: center;
     margin-top: 40px;
     font-size: 20px;
