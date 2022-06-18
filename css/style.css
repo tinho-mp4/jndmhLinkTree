@@ -50,22 +50,32 @@ a:hover {
     background: #fff;
 }
 
-
+.sharelink{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 72px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
 
 /*---------------------------------------------------------------> FOOTER */
 footer {
     position: fixed;
-    text-align: right;
+    margin-right: auto;  
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #131313;
     color: white;
     text-align: center;
-    float: right;
 }
 
 footer ul {
+    display: flex;
     list-style-type: none;
     margin: 5px;
     padding: 15px 10px;
@@ -73,10 +83,21 @@ footer ul {
     background-color: #131313;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
-    display: flex;
     flex-direction: row;
 }
 
-footer li {
-    flex-grow: 0;
+footer li{
+    padding-right:30px;
+}
+
+footer ul li:nth-child(odd){
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+footer ul li:nth-child(even){
+    display: flex;
+    float: right;
+    justify-content: flex-end;
 }
