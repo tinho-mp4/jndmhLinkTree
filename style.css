@@ -90,7 +90,7 @@ i {
             transform: scale(1.1)
 }
 
-span {
+.btn_wrap span {
     position: absolute;
     z-index: 99;
     width: 240px;
